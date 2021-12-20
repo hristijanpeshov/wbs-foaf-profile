@@ -1,1 +1,35 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
+<https://raw.githubusercontent.com/hristijanpeshov/wbs-foaf-profile/master/foaf.ttl>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <https://raw.githubusercontent.com/hristijanpeshov/wbs-foaf-profile/master/foaf.ttl#me> ;
+        foaf:primaryTopic     <https://raw.githubusercontent.com/hristijanpeshov/wbs-foaf-profile/master/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/hristijanpeshov/wbs-foaf-profile/master/foaf.ttl#me>
+        a                    foaf:Person ;
+        foaf:family_name     "Peshov" ;
+        foaf:givenname       "Hristijan" ;
+        foaf:homepage        <https://www.linkedin.com/in/hristijan-peshov-02a6b51aa> ;
+        foaf:knows           [ a                  foaf:Person ;
+                               foaf:mbox_sha1sum  "ad266672eb54dcf3727e3533aa09fc52c870e1ac" ;
+                               foaf:name          "Eva Spirovska"
+                             ] ;
+        foaf:knows           [ a                  foaf:Person ;
+                               rdfs:seeAlso       <https://raw.githubusercontent.com/tijanastojanovska/VBS_Domasno5_181089/main/foaf.ttl> ;
+                               foaf:mbox_sha1sum  "95694ae4b6649dbd15f86a1952dfd892918da221" ;
+                               foaf:name          "Tijana"
+                             ] ;
+        foaf:knows           [ a                  foaf:Person ;
+                               foaf:mbox_sha1sum  "a1f9c0a038c6b79ff98493c95374444ab96639cd" ;
+                               foaf:name          "Toshe"
+                             ] ;
+        foaf:mbox_sha1sum    "7bf757788a1bbf66405376484f70a882f1b4ce28" ;
+        foaf:name            "Hristijan Peshov" ;
+        foaf:nick            "Peshov" ;
+        foaf:schoolHomepage  <https://finki.ukim.mk/> ;
+        foaf:title           "Mr" .
