@@ -16,17 +16,17 @@
         foaf:givenname       "Hristijan" ;
         foaf:homepage        <https://www.linkedin.com/in/hristijan-peshov-02a6b51aa> ;
         foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "ad266672eb54dcf3727e3533aa09fc52c870e1ac" ;
+                               foaf:mbox_sha1sum  "50cd3087ff9774050c35ec869f1ea2ba1fe21f19" ;
+                               foaf:name          "Toshe"
+                             ] ;
+        foaf:knows           [ a                  foaf:Person ;
+                               foaf:mbox_sha1sum  "18df299817e814da811c14445b3325eaa24d478c" ;
                                foaf:name          "Eva Spirovska"
                              ] ;
         foaf:knows           [ a                  foaf:Person ;
                                rdfs:seeAlso       <https://raw.githubusercontent.com/tijanastojanovska/VBS_Domasno5_181089/main/foaf.ttl> ;
-                               foaf:mbox_sha1sum  "95694ae4b6649dbd15f86a1952dfd892918da221" ;
+                               foaf:mbox_sha1sum  "c3aa9ed8c4c72d5eb12bc3e4c0e784b209615d0c" ;
                                foaf:name          "Tijana"
-                             ] ;
-        foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "a1f9c0a038c6b79ff98493c95374444ab96639cd" ;
-                               foaf:name          "Toshe"
                              ] ;
         foaf:mbox_sha1sum    "7bf757788a1bbf66405376484f70a882f1b4ce28" ;
         foaf:name            "Hristijan Peshov" ;
