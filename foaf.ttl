@@ -28,6 +28,11 @@
                                foaf:mbox_sha1sum  "c3aa9ed8c4c72d5eb12bc3e4c0e784b209615d0c" ;
                                foaf:name          "Tijana"
                              ] ;
+        foaf:knows           [ a                  foaf:Person ;
+                               rdfs:seeAlso       <https://mjovanovik.com/foaf.ttl#> ;
+                               foaf:mbox_sha1sum  "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+                               foaf:name          "Milos Jovanovik"
+                             ] ;
         foaf:mbox_sha1sum    "7bf757788a1bbf66405376484f70a882f1b4ce28" ;
         foaf:name            "Hristijan Peshov" ;
         foaf:nick            "Peshov" ;
