@@ -16,6 +16,7 @@
         foaf:givenname       "Hristijan" ;
         foaf:homepage        <https://www.linkedin.com/in/hristijan-peshov-02a6b51aa> ;
         foaf:knows           [ a                  foaf:Person ;
+                               rdfs:seeAlso       <https://www.dropbox.com/s/lobhozixjtxl9po/foaf.ttl?dl=1> ;
                                foaf:mbox_sha1sum  "50cd3087ff9774050c35ec869f1ea2ba1fe21f19" ;
                                foaf:name          "Toshe"
                              ] ;
@@ -27,11 +28,6 @@
                                rdfs:seeAlso       <https://raw.githubusercontent.com/tijanastojanovska/VBS_Domasno5_181089/main/foaf.ttl> ;
                                foaf:mbox_sha1sum  "c3aa9ed8c4c72d5eb12bc3e4c0e784b209615d0c" ;
                                foaf:name          "Tijana"
-                             ] ;
-        foaf:knows           [ a                  foaf:Person ;
-                               rdfs:seeAlso       <https://mjovanovik.com/foaf.ttl> ;
-                               foaf:mbox_sha1sum  "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
-                               foaf:name          "Milos Jovanovik"
                              ] ;
         foaf:mbox_sha1sum    "7bf757788a1bbf66405376484f70a882f1b4ce28" ;
         foaf:name            "Hristijan Peshov" ;
