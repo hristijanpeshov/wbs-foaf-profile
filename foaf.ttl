@@ -16,7 +16,7 @@
         foaf:givenname       "Hristijan" ;
         foaf:homepage        <https://www.linkedin.com/in/hristijan-peshov-02a6b51aa> ;
         foaf:knows           [ a                  foaf:Person ;
-                               rdfs:seeAlso       <https://www.dropbox.com/s/lobhozixjtxl9po/foaf.ttl?dl=1> ;
+                               rdfs:seeAlso       <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/foaf.ttl> ;
                                foaf:mbox_sha1sum  "50cd3087ff9774050c35ec869f1ea2ba1fe21f19" ;
                                foaf:name          "Toshe"
                              ] ;
