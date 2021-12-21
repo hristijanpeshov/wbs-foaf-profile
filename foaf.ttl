@@ -29,7 +29,7 @@
                                foaf:name          "Tijana"
                              ] ;
         foaf:knows           [ a                  foaf:Person ;
-                               rdfs:seeAlso       <https://mjovanovik.com/foaf.ttl#> ;
+                               rdfs:seeAlso       <https://mjovanovik.com/foaf.ttl> ;
                                foaf:mbox_sha1sum  "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
                                foaf:name          "Milos Jovanovik"
                              ] ;
